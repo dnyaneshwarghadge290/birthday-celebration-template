@@ -31,11 +31,11 @@ const targetDate = new Date("2025-12-18T00:00:00");
  Year Mo Day Hr Min Sec
 ```
 
-- **YYYY** = 4-digit year (2025, 2026, etc.)
-- **MM** = 2-digit month (01=Jan, 02=Feb, ... 12=Dec)
-- **DD** = 2-digit day (01 to 31)
+- **2006** = 4-digit year (2025, 2026, etc.)
+- **03=March** = 2-digit month (01=Jan, 02=Feb, ... 12=Dec)
+- **23** = 2-digit day (01 to 31)
 - **T** = Separator (keep this!)
-- **HH:MM:SS** = Time in 24-hour format
+- **12:00*00* = Time in 24-hour format
 
 **Time Examples:**
 | What you want | Use this |
@@ -48,7 +48,7 @@ const targetDate = new Date("2025-12-18T00:00:00");
 
 **Real Examples:**
 ```javascript
-// January 15, 2026 at midnight
+// March 22, 2006 at midnight
 const targetDate = new Date("2026-01-15T00:00:00");
 
 // June 10, 2025 at 3:30 PM
